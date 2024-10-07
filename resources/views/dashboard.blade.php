@@ -8,7 +8,13 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-welcome />
+                <!-- Show only Activity 1 -->
+                <div class="p-6">
+                    <h1 class="text-2xl font-bold">Activity 1</h1>
+                </div>
+
+                <!-- Optional: Keep your Livewire component if you want functionality -->
+                @livewire('counter-new')
             </div>
         </div>
     </div>
